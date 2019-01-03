@@ -148,6 +148,19 @@ body {
     font-size: 24px;
 }
 
+.container-no-borders {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    font-size: 24px;
+}
+
 .container-3l {
     width: 50px;
     height: 50px;
@@ -206,10 +219,11 @@ body {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-size: 24px;
+    overflow: hidden;
 }
 
 .container-num-x {
-    background-color: #fff;
+    background-color: transparent;
 }
 .container-num-z {
     background-color: #000;
